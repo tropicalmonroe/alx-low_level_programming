@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *main - entry point
+ * main - entry point
  *
- *Return: Always 0 (Success/ correct)
+ * Return: Always 0 (Success/ correct)
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	
 	if (n == 0)
 	{
-		printf("%i is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 
 	else if (n < 0)
