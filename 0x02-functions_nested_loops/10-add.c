@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * add - prints the code
  * @x: prints int x
  * @y: prints int y
  * Return: Always 0.
