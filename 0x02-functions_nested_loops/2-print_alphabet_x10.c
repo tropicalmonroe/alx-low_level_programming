@@ -13,7 +13,7 @@ int c = 0;
 
 while (c < 10)
 {
-for (a = 'a'; a<= 'z'; a++)
+for (a = 'a'; a <= 'z'; a++)
 {
 _putchar(a);
 }
