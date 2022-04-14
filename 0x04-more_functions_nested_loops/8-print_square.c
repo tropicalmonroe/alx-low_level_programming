@@ -3,7 +3,6 @@
 /**
  * print_square - prints a square
  * @size: the size of the square
- * Return: always 0
  */
 
 void print_square(int size)
@@ -20,7 +19,6 @@ void print_square(int size)
 			}
 			_putchar(10);
 		}
-
 	}
 	else
 	{
