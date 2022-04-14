@@ -1,14 +1,13 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * main - print fizz buzz
- * but for multiples
- *and for multiples
- * Return: success 0
+ * main - check the code for Holberton School students.
+ *
+ * Return: void.
  */
 
 int main(void)
 {
+
 	int i = 1;
 
 	while (i <= 100)
@@ -27,17 +26,17 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", i);
+			printf("%i", i);
 		}
+
 		if (i != 100)
 		{
-			putchar(' ')
+			putchar(' ');
 		}
 
-		i++
+		i++;
 	}
 	putchar('\n');
-
-return (0);
+	return (0);
 
 }
