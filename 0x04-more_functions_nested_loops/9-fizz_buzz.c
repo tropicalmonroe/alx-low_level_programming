@@ -1,7 +1,9 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - print fizz buzz
- *
+ * but for multiples
+ *and for multiples
  * Return: success 0
  */
 
