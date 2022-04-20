@@ -2,12 +2,13 @@
 
 /**
  * _puts - check the code
- * @str: pointer 
+ * @str: pointer
  * Return: void
  */
 
 void _puts(char *str)
 {
+
 	int i = 0;
 
 	while (str[i])
