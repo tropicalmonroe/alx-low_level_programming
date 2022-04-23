@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strcat - concatinate 2 strings.
  * @dest: paste string 
