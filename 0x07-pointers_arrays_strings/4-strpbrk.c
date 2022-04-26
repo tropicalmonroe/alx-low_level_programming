@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strpbrk - finds first matching char in string
- * @s: input string
- * @accept: characters matched
+ * _strpbrk - bytes
+ * @s: pointer to char
+ * @accept: pointer to char
  * Return: NULL
  */
 
@@ -24,4 +25,3 @@ char *_strpbrk(char *s, char *accept)
 	}
 	return (NULL);
 }
-
