@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /**
- * create_array - creatingan array of chars
+ * create_array - array for prints a string
  * @size: size of memory to print
  * @c: specified char to init the array
  * Rerurn: pointer
