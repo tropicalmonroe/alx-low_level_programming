@@ -80,7 +80,7 @@ void print_all(const char * const format, ...)
 	int k = 0;
 	char *separator = "";
 
-	variad func[] = {
+	priner_f func[] = {
 		{"c", print_char},
 		{"i", print_int},
 		{"f", print_float},
