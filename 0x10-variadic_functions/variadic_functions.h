@@ -22,6 +22,6 @@ typedef struct prints
 {
 	char *s;
 	void (*p)(va_list x);
-} printer_f;
+} priner_f;
 
 #endif
