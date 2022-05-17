@@ -7,10 +7,10 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
-void print_s(va_list x);
-void print_i(va_list x);
-void print_c(va_list x);
-void print_k(va_list x);
+void print_char(va_list x);
+void print_int(va_list x);
+void print_float(va_list x);
+void print_string(va_list x);
 
 /**
  * struct prints - meaning of struct_prints
@@ -20,7 +20,7 @@ void print_k(va_list x);
 
 typedef struct prints
 {
-	char *w;
+	char *s;
 	void (*p)(va_list x);
 } prints_f;
 
