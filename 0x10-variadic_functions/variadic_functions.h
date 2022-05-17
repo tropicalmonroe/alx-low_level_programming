@@ -14,7 +14,7 @@ void print_string(va_list x);
 
 /**
  * struct prints - meaning of struct_prints
- * @w: data type
+ * @s: data type
  * @p: pointer printy
  */
 
