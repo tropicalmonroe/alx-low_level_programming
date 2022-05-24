@@ -5,12 +5,12 @@
 /**
  * print_list - function that prints all the elements of a list_t
  * @h: the lists list pointer
- * Return: g
+ * Return: nodes
  */
 
 size_t print_list(const list_t *h)
 {
-	size_t g = 0;
+	size_t nodes = 0;
 
 	while (h)
 	{
@@ -20,10 +20,10 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%d] %s\n", h->len, h->str);
 
-		g++;
+		nodes++;
 
 		h = h->next;
 	}
 
-	return (g);
+	return (nodes);
 }
