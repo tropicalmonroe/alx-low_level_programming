@@ -4,7 +4,8 @@ void first(void) __attribute__ ((constructor));
 
 /**
  * first - before execution
- * function is executed
+ *
+ * Return: void
  */
 
 void first(void)
