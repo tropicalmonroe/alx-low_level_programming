@@ -1,14 +1,15 @@
 #include "lists.h"
 #include <stdio.h>
+
 /**
  * print_list - function that prints all the elements of a list_t
  * @h: the lists list pointer
- * Return: nodes
+ * Return: g
  */
 
 size_t print_list(const list_t *h)
 {
-	size_t getnodes = 0;
+	size_t g = 0;
 
 	while (h)
 	{
@@ -18,10 +19,10 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%d] %s\n", h->len, h->str);
 
-		getnodes++;
+		g++;
 
 		h = h->next;
 	}
 
-	return (getnodes);
+	return (g);
 }
