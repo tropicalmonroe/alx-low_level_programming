@@ -3,7 +3,8 @@
 /**
  * list_len - Finds the number of elements in linked list
  * @h: The linked list_t list pointer
- * @el: a counter var for (nodes)
+ * @el: a counter var for node
+ *
  * Return: The number of el
  */
 
