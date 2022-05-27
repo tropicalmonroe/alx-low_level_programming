@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_listint - function that frees a listint_t list
+ * free_listint2 - function that frees a listint_t list
  * @head: double pointer to free list
  *
  * Return: void
@@ -10,17 +10,16 @@
 
 void free_listint2(listint_t **head);
 {
-        listint_t *ne;
+        listint_t *nex;
 
 	if (head == NULL)
 		return;
 
         while (*head != NULL)
         {
-                ne = *head->next;
+                nex = (*head)->next;
                 free(*head);
-                *head = ne;
+                *head = nex;
         }
-
-
 }
+
