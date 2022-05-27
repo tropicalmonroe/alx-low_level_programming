@@ -1,9 +1,9 @@
 #include "lists.h"
 #include <stdlib.h>
+
 /**
  * pop_listint - function that deletes the head node of a listint_t
- * @head: double pointer 
- *
+ * @head: double pointer
  * Return: (n)
  */
 
