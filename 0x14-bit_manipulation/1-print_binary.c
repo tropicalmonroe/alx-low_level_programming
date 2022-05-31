@@ -3,8 +3,6 @@
 /**
  * print_binary -  a function that prints the binary representation
  * @n: number of print
- *
- * Return: void
  */
 
 void print_binary(unsigned long int n)
