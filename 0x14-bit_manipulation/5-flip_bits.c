@@ -14,8 +14,8 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	unsigned int first;
 	unsigned int y;
 
-	last = 0;
-	first = 1;
+	first = 0;
+	last = 1;
 
 	d = n ^ m;
 
