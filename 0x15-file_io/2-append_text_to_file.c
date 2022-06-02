@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 2-append_text_to_file.c - function that creates a file
+ * append_text_to_file.c - function that creates a file
  * @filename: name of the file to append
  * @text_content: NULL terminated string to append to the file
  * Return: -1 if filename is NULL and 1 if successful
