@@ -1,9 +1,14 @@
 #include "main.h"
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdlib.h>
 
 /**
  * read_textfile - function that reads a text file and prints it
  * @filename: pointer that the file reads
- * @letter: this are numbs that the letters should read and rite
+ * @letters: this are numbs that the letters should read and rite
  * Return: read and print letter
  */
 
