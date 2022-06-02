@@ -24,7 +24,7 @@ int create_file(const char *filename, char *text_content)
 	andika = write(fungua, text_content, urefu);
 
 	if (fungua == -1 || andika == -1)
-		return (1);
+		return (-1);
 
 	close(fungua);
 
